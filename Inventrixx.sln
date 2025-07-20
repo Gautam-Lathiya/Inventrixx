@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventrixx.Database", "Inve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventrixx.DatabaseConfig", "Inventrixx.DatabaseConfig\Inventrixx.DatabaseConfig.csproj", "{D1D7F1CF-00DD-43AB-9615-631AE1E318A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventrixx.Repository", "Inventrixx.Repository\Inventrixx.Repository.csproj", "{746A167E-B6E0-425E-A8EF-D3F532746310}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventrixx.UnitOfWork", "Inventrixx.UnitOfWork\Inventrixx.UnitOfWork.csproj", "{A0E2695A-5BD6-4381-8ACE-0FA9E6388E3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{D1D7F1CF-00DD-43AB-9615-631AE1E318A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1D7F1CF-00DD-43AB-9615-631AE1E318A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1D7F1CF-00DD-43AB-9615-631AE1E318A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{746A167E-B6E0-425E-A8EF-D3F532746310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{746A167E-B6E0-425E-A8EF-D3F532746310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{746A167E-B6E0-425E-A8EF-D3F532746310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{746A167E-B6E0-425E-A8EF-D3F532746310}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0E2695A-5BD6-4381-8ACE-0FA9E6388E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0E2695A-5BD6-4381-8ACE-0FA9E6388E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0E2695A-5BD6-4381-8ACE-0FA9E6388E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0E2695A-5BD6-4381-8ACE-0FA9E6388E3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
