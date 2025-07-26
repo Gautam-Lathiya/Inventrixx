@@ -12,7 +12,7 @@ namespace Inventrixx.Database.Entities
         public int ProductId { get; set; }
         public decimal Price { get; set; }
         public DateOnly EffectiveFrom { get; set; }
-        public DateOnly EffectiveTo { get; set; }
+        public DateOnly? EffectiveTo { get; set; }
         public virtual Product Product { get; set; } = null!;
     }
 
